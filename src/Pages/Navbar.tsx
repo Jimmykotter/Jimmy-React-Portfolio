@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 
-export default function Navbar() {
+function Navbar() {
   return (
     <nav className="nav">
-      <Link to ="home">Jimmy Kotter/</Link>
+      <Link to ="/">Jimmy Kotter</Link>
       <ul>
         <li>
           {" "}
-          <Link to="/aboutme">About Me</Link>
+          <Link to="/about">About</Link>
         </li>
         <li>
           <Link to="/portfolio">Portfolio</Link>
@@ -24,6 +24,9 @@ export default function Navbar() {
     </nav>
   );
 }
+
+export default Navbar;
+
 // import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
 // export default function Navbar() {
