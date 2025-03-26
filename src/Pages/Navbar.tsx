@@ -2,21 +2,21 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="nav" style={{position:'fixed',top:0}}>
+    <nav className="nav">
       <Link to ="/">Jimmy Kotter</Link>
       <ul>
-        <li>
+      <li className="active">
           {" "}
           <Link to="/about">About</Link>
         </li>
-        <li>
+        <li className="active">
           <Link to="/portfolio">Portfolio</Link>
         </li>
-        <li>
+        <li className="active">
           {" "}
           <Link to="/contact">Contact</Link>
         </li>
-        <li>
+        <li className="active">
           {" "}
           <Link to="/resume">Resume</Link>
         </li>

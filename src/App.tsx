@@ -1,5 +1,5 @@
 import "./App.css";
-import { createBrowserRouter} from "react-router-dom";
+import Footer from "./Pages/Footer";
 // import Home from "./Pages/Home";
 // import About from "./Pages/About";
 // import Contact from "./Pages/Contact";
@@ -7,7 +7,7 @@ import { createBrowserRouter} from "react-router-dom";
 // import Resume from "./Pages/Resume";
 import Navbar from "./Pages/Navbar";
 import { Outlet } from "react-router-dom";
-
+import "./App.css";
 
 // const router = createBrowserRouter([
 //   {
@@ -47,8 +47,11 @@ import { Outlet } from "react-router-dom";
 function App() {
   return (<>
         <Navbar/>
+        <br/>
+        <br/>
+        <br/>
           <Outlet/>
-        {/* // <Footer /> */}
+         <Footer />
         </>
   );
 }
