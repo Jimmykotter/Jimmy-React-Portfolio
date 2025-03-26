@@ -8,6 +8,8 @@ export default function Home() {
         alt="Jimmy"
         style={{ width: "200px", borderRadius: "50%" }}
       />
+      <br/>
+      <br/>
       <h1>Hi, I'm Jimmy.</h1>
 
       <p>
@@ -22,6 +24,8 @@ export default function Home() {
       <h2>
         Welcome to my portfolio, take a look around and feel free to reach out!
       </h2>
+      <br/>
+      <br/>
     </>
   );
 }
