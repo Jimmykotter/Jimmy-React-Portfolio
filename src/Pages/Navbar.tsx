@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="nav">
+    <nav className="nav" style={{position:'fixed',top:0}}>
       <Link to ="/">Jimmy Kotter</Link>
       <ul>
         <li>
